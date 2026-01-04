@@ -105,6 +105,33 @@ h2 {
   width: 18px;
   height: 18px;
 }
+.email-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.email-text {
+  padding: 0.75rem 1rem;
+  min-width: 280px;
+  background: rgba(11, 87, 250, 0.587);
+  color: whitesmoke;
+  border-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 14px;
+  font-size: 0.95rem;
+}
+.email-bar img {
+  background: whitesmoke;
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.icon-btn:hover {
+  opacity: 0.7;
+}
 
 /*Responsive*/
 @media (max-width: 768px) {
