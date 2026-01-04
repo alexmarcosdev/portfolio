@@ -82,7 +82,7 @@ h2 {
 .sobremi {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 3rem;
+  gap: 1rem;
   align-items: center;
   max-width: 1100px;
   margin-left: 50px;
@@ -96,7 +96,7 @@ h2 {
 .button {
   background: whitesmoke;
   border-radius: 20px;
-  padding: 0.5rem;
+  padding: 0.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
