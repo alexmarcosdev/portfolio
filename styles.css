@@ -72,8 +72,9 @@ section {
   margin-left: 50px;
 }
 
-h2 {
+.subtitle {
   color: #e2980f;
+  font-size: 25px;
 }
 .description strong {
   color: #e2980f;
@@ -131,6 +132,12 @@ h2 {
 }
 .icon-btn:hover {
   opacity: 0.7;
+}
+#contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 700px;
 }
 
 /*Responsive*/
