@@ -63,13 +63,6 @@ main {
 
 section {
   padding: 4rem 2rem;
-  display: grid;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
-  max-width: 600px;
-  margin-left: 50px;
 }
 
 .subtitle {
@@ -85,8 +78,9 @@ section {
   grid-template-columns: 1fr auto;
   gap: 1rem;
   align-items: center;
+  text-align: left;
   max-width: 1100px;
-  margin-left: 50px;
+  margin: 0 auto;
   padding: 4rem 2rem;
 }
 .rrss {
@@ -133,11 +127,39 @@ section {
 .icon-btn:hover {
   opacity: 0.7;
 }
+.timeline {
+  color: black;
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+.container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+}
+.text-box {
+  padding: 20px 30px;
+  background: whitesmoke;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.left-container {
+  left: 0;
+}
+.right-container {
+  left: 50%;
+}
 #contacto {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   max-width: 700px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /*Responsive*/
