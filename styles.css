@@ -23,7 +23,7 @@ body {
   justify-content: space-around;
   padding: 0 2rem 0 0;
   z-index: 1000;
-  background: transparent;
+  background: black;
   transition: all 0.3s ease;
   margin-right: 20px;
 }
@@ -99,6 +99,9 @@ section {
 .button img {
   width: 18px;
   height: 18px;
+}
+.button:hover {
+  opacity: 0.7;
 }
 .email-bar {
   display: flex;
@@ -220,6 +223,60 @@ section {
   display: inline-block;
   margin-bottom: 15px;
 }
+.titleskills {
+  margin: 0 auto;
+  text-align: center;
+}
+.hardskills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.skill-card {
+  background: #1a1a24;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+.skill-card h3 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 900;
+}
+.pills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.pills-container img {
+  width: 25px;
+  height: 25px;
+  border-radius: 999px;
+  padding: 10px;
+  background-color: white;
+}
+.pill {
+  background: rgba(255, 255, 255, 0.06);
+  color: #f5f5f5;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.pill:hover {
+  background: rgba(226, 152, 15, 0.15);
+  border-color: #e2980f;
+}
 #contacto {
   display: flex;
   flex-direction: column;
@@ -229,6 +286,9 @@ section {
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+}
+#contacto .email-text {
+  text-align: left;
 }
 
 /*Responsive*/
@@ -290,5 +350,8 @@ section {
   }
   .rigth-container img {
     left: -20px;
+  }
+  .hardskills {
+    grid-template-columns: 1fr;
   }
 }
