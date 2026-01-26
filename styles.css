@@ -233,6 +233,12 @@ section {
   gap: 2rem;
   margin-top: 3rem;
 }
+.softskills {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
 .skill-card {
   background: #1a1a24;
   border-radius: 16px;
